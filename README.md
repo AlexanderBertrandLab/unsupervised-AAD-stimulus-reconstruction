@@ -18,7 +18,7 @@ Note: Tensorlab is required (https://www.tensorlab.net/).
 
 ### Quick guide
 
-1. Download the dataset from [https://zenodo.org/record/3997352#.X0y3nHkzZEZ](https://zenodo.org/records/4004271) [2].
+1. Download the dataset from [https://zenodo.org/records/4004271](https://zenodo.org/records/4004271) [2].
 2. Run [preprocess_data.m](preprocess_data.m).
 3. Run [main.m](main.m).
 4. Add your own datasets and play around!
@@ -44,6 +44,6 @@ Leuven.AI - KU Leuven institute for AI
  
 [1] S. Geirnaert, T. Francart, and A. Bertrand, “Unsupervised Self-Adaptive Auditory Attention Decoding,” IEEE Journal on Biomedical and Health Informatics, vol. 25, no. 10, pp. 3955–3966, 2021 [https://doi.org/10.1109/JBHI.2021.3075631](https://doi.org/10.1109/JBHI.2021.3075631).
 
-[2] N. Das, T. Francart, and A. Bertrand, “Auditory Attention Detection Dataset KULeuven”. Zenodo, Aug. 30, 2019. doi: 10.5281/zenodo.4004271.
+[2] N. Das, T. Francart, and A. Bertrand, “Auditory Attention Detection Dataset KULeuven”. Zenodo, Aug. 30, 2019. doi: [10.5281/zenodo.4004271](https://zenodo.org/records/4004271).
 
-[3] S. A. Fuglsang, D. D. E. Wong, and J. Hjortkjær, “EEG and audio dataset for auditory attention decoding”. Zenodo, Mar. 15, 2018. doi: 10.5281/zenodo.1199011.
+[3] S. A. Fuglsang, D. D. E. Wong, and J. Hjortkjær, “EEG and audio dataset for auditory attention decoding”. Zenodo, Mar. 15, 2018. doi: [10.5281/zenodo.1199011](https://zenodo.org/records/1199011).
