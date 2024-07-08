@@ -8,11 +8,20 @@ If this code has been useful for you, please cite Geirnaert et al. [1].
 
 ## About
 
-This repository includes the MATLAB-code for the unsupervised self-adaptive auditory attention decoding (AAD) algorithm based on a stimulus reconstruction decoder presented in Algorithm 1 in Geirnaert et al. [1], and the code to reproduce most experiments in Geirnaert et al. [1]. The datasets on which the experiments are conducted are publicly available [2, 3].
+This repository includes the MATLAB-code for the unsupervised self-adaptive auditory attention decoding (AAD) algorithm based on a stimulus reconstruction decoder presented in Algorithm 1 in Geirnaert et al. [1], and the code to reproduce most experiments in Geirnaert et al. [1]. The datasets on which the experiments are conducted are publicly available [2, 3]. A preprocessing script for the first dataset [2] is provided in [preprocess_data.m](preprocess_data.m) and replaces that script in the Zenodo-version of [2].
+
+[trainUnsupStimRecDec.m](trainUnsupStimRecDec.m) contains the core unsupervised training algorithm as presented in Algorithm 1 in Geirnaert et al. [1].
 
 Developed and tested in MATLAB R2021b.
 
 Note: Tensorlab is required (https://www.tensorlab.net/).
+
+### Quick guide
+
+1. Download the dataset from [https://zenodo.org/record/3997352#.X0y3nHkzZEZ](https://zenodo.org/records/4004271) [2].
+2. Run [preprocess_data.m](preprocess_data.m).
+3. Run [main.m](main.m).
+4. Add your own datasets and play around!
 
 ## Contact
 Simon Geirnaert  
